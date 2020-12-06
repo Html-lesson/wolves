@@ -1,0 +1,132 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+body {
+	background-image: url(../img/pexels-francesco-ungaro-396547.jpg);
+}
+
+.block__item{
+	position: relative;
+	top: 123px;
+	left: 290px;
+	align: center;
+	font-family: Oswald;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 72px;
+	color: white;
+}
+.block__item_2{
+	font-family: Open Sans;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	position: relative;
+	top: 163px;
+	left: 426px;
+	align: center;
+	color: white;
+}
+.footer {
+	width: 40px;
+	position: relative;
+	top: 400px;
+}
+.uno a{
+	transition: all 0.8s 0s;
+	color: #67ed55;
+	position: relative;
+	left: 620px;
+	top: -98px;
+	width: 42px;
+	height: 49px;
+	color: #67ed55;
+	font-family: Oswald;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 36px;
+}
+.two a{
+	transition: all 0.8s 0s;
+	color: #67ed55;
+	position: relative;
+	left: 670px;
+	top: -123px;
+	width: 42px;
+	height: 49px;
+	color: #67ed55;
+	font-family: Oswald;
+	font-weight: 700;
+	font-style: normal;
+}
+.three a{
+	transition: all 0.8s 0s;
+	position: relative;
+	left: 700px;
+	top: -136px;
+	width: 42px;
+	height: 49px;
+	color: #67ed55;
+	font-family: Oswald;
+	font-weight: 700;
+	font-style: normal;
+}
+.uno a:hover{color: red;}
+.two a:hover{color: red;}
+.three a:hover{color: red;}
+.header a{
+	color: #67ed55;
+	font-family: Oswald;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+}
+.work{
+	transition: all 0.8s 0s;
+	position: relative;
+	left: 799px;
+	top: 25px;
+}
+.about{
+	transition: all 0.8s 0s;
+	position: relative;
+	top: 2px;
+	left: 891px;
+}
+.service{
+	transition: all 0.8s 0s;
+	position: relative;
+	top: -22px;
+	left: 980px;
+}
+.blog{
+	transition: all 0.8s 0s;
+	position: relative;
+	left: 1100px;
+	top: -45px;
+}
+.contact{
+	transition: all 0.8s 0s;
+	position: relative;
+	left: 1186px;
+	top: -65px;
+}
+.work a:hover{color: red;}
+.about a:hover{color: red;}
+.blog a:hover{color: red;}
+.service a:hover{color: red;}
+.contact a:hover{color: red;}

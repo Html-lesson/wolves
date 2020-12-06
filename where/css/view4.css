@@ -1,0 +1,144 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+/*---------------------------------------*/
+
+body{
+	min-width: 1007px;
+}
+.item_1 h1{
+	padding: 50px;
+	font-size: 45px;
+	font-family: oswald;
+}
+.line{
+	position: absolute;
+	left: 50px;
+	top: 115px;
+	width: 68px;
+	height: 2px;
+	background-color: #000;
+}
+/**/
+.item_2 img{
+	position: absolute;
+	left: 513px;
+	width: 317px;
+	height: 411px;
+}
+.item_3 img{
+	position: absolute;
+	left: 156px;
+	width: 317px;
+	height: 411px;
+}
+.item_4 img{
+	position: absolute;
+	left: 867px;
+	width: 317px;
+	height: 411px;
+}
+.it{
+	padding: 90px;
+}
+.happy__end{
+	position: absolute;
+	top: 800px;
+	left: 356px;
+	padding: 0px;
+	width: 735px;
+	color: #373737;
+	font-family: Open Sans;
+	line-height: 31px;
+	font-size: 16px;
+	align: center;
+}
+.dj{
+	width: 5069px;
+	font-family: oswald;
+	position: absolute;
+	top: 973px;
+	left: 630px;
+}
+span{
+	font-family: Oswald;
+	font-style: normal;
+	font-weight: 300;
+	color: #252525;
+}
+.grt{
+	position: absolute;
+	left: 256px;
+}
+.wh{
+	transition: all 0.3s 0s;
+	width: 700px;
+	height: 250px;
+	background-color: #ccc;
+	position: relative;
+	top: 700px;
+}
+.wh:hover{background-color: orange;}
+.wh p{
+	width: 0px;
+	height: 0px;
+	font-size: 14px;
+	color: gray;
+	position: relative;
+	left: -240px;
+	top: 19px;
+}
+.wh a{
+	height: 0px;
+	width: 0px;
+	position: relative;
+	left: 150px;
+	font-size: 24px;
+	top: 122px;
+	text-align: center;
+	color: #000;
+	font-family: Oswald;
+}
+.green a{
+	height: 0px;
+	width: 0px;
+	position: relative;
+	left: 350px;
+	font-size: 24px;
+	top: 122px;
+	text-align: center;
+	color: #fff;
+	font-family: Oswald;
+}
+.green{
+	transition: all 0.3s 0s;
+	width: 750px;
+	height: 250px;
+	background-color: #70bd59;
+	position: relative;
+	top: 450px;
+	left: 700px;
+}
+.green p{
+	width: 150px;
+	height: 0px;
+	font-size: 14px;
+	color: #fff;
+	position: relative;
+	left: -20px;
+	top: 19px;
+}
+.green:hover{background-color: blue;}

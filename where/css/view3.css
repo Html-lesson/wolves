@@ -1,0 +1,137 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;font-size: 100%;line-height: 1;font-size: 14px;-ms-text-size-adjust: 100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+body{
+	color: #67ed55;
+	background-image: url(../img/pexels-francesco-ungaro-396547.jpg);
+}
+.block h1{
+	font-family: Oswald;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 48px;
+	position: relative;
+	top: 60px;
+	left: 68px;
+}
+.line{
+	background-color: #67ed55;
+	width: 45px;
+	height: 2px;
+	position: relative;
+	top: 72px;
+	left: 68px;
+}
+.branding h1{
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 20px;
+	position: relative;
+	top: 156px;
+	left: 90px;
+}
+.line2{
+	width: 35px;
+	height: 2px;
+	background-color: #67ed55;
+	position: relative;
+	left: 90px;
+	top: 175px;
+}
+.branding p{
+	font-family: Open Sans;
+	width: 281px;
+	position: relative;
+	top: 200px;
+	left: 90px;
+	line-height: 25px;
+}
+.branding a{
+	font-family: Oswald;
+	font-weight: 500;
+	color: #67ed55;
+	position: relative;
+	top: 210px;
+	left: 90px;
+	opacity: 50%;
+}
+.DESIGN h1{
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 20px;
+	position: relative;
+	top: 46px;
+	left: 590px;
+}
+.DESIGN p{
+	font-family: Open Sans;
+	width: 281px;
+	position: relative;
+	top: 80px;
+	left: 590px;
+	line-height: 25px;
+}
+.DESIGN a{
+	font-family: Oswald;
+	font-weight: 500;
+	color: #67ed55;
+	position: relative;
+	top: 100px;
+	left: 590px;
+	opacity: 50%;
+}
+.line3{
+	width: 35px;
+	height: 2px;
+	background-color: #67ed55;
+	position: relative;
+	left: 590px;
+	top: 60px;
+}
+.development h1{
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 20px;
+	position: relative;
+	top: -76px;
+	left: 1090px;
+}
+.development p{
+	font-family: Open Sans;
+	width: 281px;
+	position: relative;
+	top: -37px;
+	left: 1090px;
+	line-height: 25px;
+}
+.line5{
+	width: 35px;
+	height: 2px;
+	color: #67ed55;
+	position: relative;
+	left: 1090px;
+	top: -60px;
+}
+.development a{
+	font-family: Oswald;
+	font-weight: 500;
+	color: #67ed55;
+	position: relative;
+	top: -12px;
+	left: 1090px;
+	opacity: 50%;
+}
